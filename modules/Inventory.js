@@ -10,7 +10,7 @@ const INVENTORY_ITEMS=Data.INVENTORY;
 
 const API_PATH =constant.API;
 
-const LAST_ID =data.length;
+const LAST_ID =Data.length;
 
 const PRICE=constant.PRICE;
 
