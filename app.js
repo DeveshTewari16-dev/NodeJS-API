@@ -13,7 +13,7 @@ app.use(express.json()); //adding middleware
 
 const port =constant.PORT; //constants from constant file
 
-app.use('/routeinv',Inventory);
+app.use('/routeinv',Inventory); //Router added for Inventory handling.
 
 
 app.use((req,res,next)=>{
