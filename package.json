@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" :"node"
+    "start": "node"
   },
   "author": "Devesh Tewari",
   "license": "ISC",
   "dependencies": {
-    "debug": "^4.3.3"
+    "debug": "^4.3.3",
+    "express": "^4.17.2"
   }
 }
