@@ -58,5 +58,9 @@ route.post(`${API_PATH}/add`, (req,res) => {
     res.send(medicine_data);
 })
 
+route.put(`/api/add/:id/:name`,(req,res)=>{
+    res.send(`Record with ${req.params.id} has updated with name ${req.params.name}`)
+
+})
 
 module.exports = route;
