@@ -6,7 +6,7 @@ function logMessages (log){
 
 }
 
-let message= 'Current Data'
+let message= 'Current Data';
 
 module.exports.logMessages=logMessages;
 module.exports.message=message;

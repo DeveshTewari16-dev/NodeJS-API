@@ -18,6 +18,8 @@ app.use('/routeinv',Inventory); //Router added for Inventory handling.
 
 app.use('/routecost',Cost);
 
+console.log('Data added');
+
 app.use((req,res,next)=>{
     console.log(req.url, req.method);
     next();
