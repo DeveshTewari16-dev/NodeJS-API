@@ -2,6 +2,7 @@ const logger=require('./logging');
 const express= require('express');
 const constant= require('./constants/Constant');
 const Inventory=require('./modules/Inventory.js')
+const Cost=require('./modules/Cost.js')
 const cors=require('cors');
 
 const app= express();
@@ -15,6 +16,7 @@ const port =constant.PORT; //constants from constant file
 
 app.use('/routeinv',Inventory); //Router added for Inventory handling.
 
+app.use('/routecost',Cost);
 
 app.use((req,res,next)=>{
     console.log(req.url, req.method);

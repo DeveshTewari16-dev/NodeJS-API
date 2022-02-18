@@ -27,4 +27,8 @@ const inventory =[
     }
 ]
 
+
+const cost=[{id:'1', discount: '10%'}]
+
 module.exports.INVENTORY=inventory;
+module.exports.cost=cost;
