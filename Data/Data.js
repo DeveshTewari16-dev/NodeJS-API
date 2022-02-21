@@ -24,6 +24,9 @@ const inventory =[
     },
     {
         id :'10' ,Name :'Medicine 10' ,price:100 ,quantity:10,
+    },
+    {
+        id :'11' ,Name :'Medicine 11' ,price:10 ,quantity:10,
     }
 ]
 
