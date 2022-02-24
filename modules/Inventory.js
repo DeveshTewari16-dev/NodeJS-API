@@ -63,5 +63,10 @@ route.put(`/api/add/:id/:name`,(req,res)=>{
 
 })
 
+route.get(`/api/data`,(req,res)=>{
+    let a=10;
+    res.send(`Data returning api enabled ${a}`);
+
+})
 
 module.exports = route;
