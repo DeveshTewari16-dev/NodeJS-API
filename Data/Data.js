@@ -33,5 +33,10 @@ const inventory =[
 
 const cost=[{id:'1', discount: '10%'}]
 
+//expoting multipling files in one file
+
+const pricing_module=[{id:'1', pricing_season: 'A'}]
+
 module.exports.INVENTORY=inventory;
 module.exports.cost=cost;
+module.exports.pricing_module=pricing_module;
