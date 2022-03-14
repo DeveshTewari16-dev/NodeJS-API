@@ -19,7 +19,6 @@ app.use('/routeinv',Inventory); //Router added for Inventory handling.
 app.use('/routecost',Cost);
 
 
-
 app.use((req,res,next)=>{
     console.log(req.url, req.method);
     next();
@@ -35,6 +34,8 @@ app.get('/',(req,res)=>{
 const user =constant.USER;
 
 logger.logMessages(`User ${user} logged in`);
+logger.logMessages(`Inside login logs ${user} logged in`);
+logger.logMessages(`Details logger ${user} logged in`);
 
 app.listen(port,()=>{
 console.log(`Listening to Port ${port}`);
